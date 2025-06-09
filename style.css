@@ -1,0 +1,219 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2822
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 :root \{\
+    --primary-color: #FF6347; /* Tomato */\
+    --secondary-color: #2E8B57; /* SeaGreen */\
+    --dark-color: #333;\
+    --light-color: #f4f4f4;\
+    --font-family: 'Poppins', sans-serif;\
+\}\
+\
+body \{\
+    font-family: var(--font-family);\
+    margin: 0;\
+    line-height: 1.6;\
+    background: var(--light-color);\
+    color: var(--dark-color);\
+\}\
+\
+.container \{\
+    max-width: 1100px;\
+    margin: auto;\
+    overflow: hidden;\
+    padding: 0 2rem;\
+\}\
+\
+header \{\
+    background: var(--primary-color);\
+    color: #fff;\
+    padding: 1rem 0;\
+    text-align: center;\
+\}\
+\
+header h1 \{\
+    margin: 0;\
+    font-size: 2.5rem;\
+    font-weight: 700;\
+\}\
+\
+header .subtitle \{\
+    margin: 0;\
+    font-size: 1.2rem;\
+    font-weight: 400;\
+\}\
+\
+.hero \{\
+    text-align: center;\
+    padding: 4rem 0;\
+    background: #fff;\
+\}\
+\
+.hero h2 \{\
+    font-size: 3rem;\
+    color: var(--primary-color);\
+\}\
+\
+.hero .tagline \{\
+    font-size: 1.5rem;\
+    max-width: 800px;\
+    margin: 1rem auto;\
+\}\
+\
+.hero-image \{\
+    max-width: 100%;\
+    height: auto;\
+    border-radius: 10px;\
+    margin-top: 2rem;\
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);\
+\}\
+\
+.features \{\
+    padding: 4rem 0;\
+\}\
+\
+.features .container \{\
+    display: grid;\
+    grid-template-columns: 1fr 1fr;\
+    gap: 2rem;\
+\}\
+\
+.feature-column \{\
+    background: #fff;\
+    padding: 2rem;\
+    border-radius: 10px;\
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);\
+\}\
+\
+.feature-column h3 \{\
+    color: var(--secondary-color);\
+    font-size: 1.8rem;\
+\}\
+\
+.feature-column ul \{\
+    list-style: none;\
+    padding: 0;\
+\}\
+\
+.feature-column li \{\
+    padding: 0.5rem 0;\
+    border-bottom: 1px dotted #ccc;\
+\}\
+\
+.feature-column li strong \{\
+    color: var(--dark-color);\
+\}\
+\
+.how-it-works \{\
+    text-align: center;\
+    padding: 4rem 0;\
+    background: #fff;\
+\}\
+\
+.how-it-works h3 \{\
+    font-size: 2.5rem;\
+    color: var(--primary-color);\
+    margin-bottom: 3rem;\
+\}\
+\
+.steps \{\
+    display: grid;\
+    grid-template-columns: repeat(3, 1fr);\
+    gap: 2rem;\
+\}\
+\
+.step \{\
+    padding: 1rem;\
+\}\
+\
+.step-number \{\
+    width: 50px;\
+    height: 50px;\
+    background: var(--secondary-color);\
+    color: #fff;\
+    border-radius: 50%;\
+    display: flex;\
+    align-items: center;\
+    justify-content: center;\
+    font-size: 1.5rem;\
+    font-weight: 700;\
+    margin: 0 auto 1rem;\
+\}\
+\
+.step h4 \{\
+    font-size: 1.5rem;\
+    margin-bottom: 0.5rem;\
+\}\
+\
+.cta \{\
+    background: var(--dark-color);\
+    color: #fff;\
+    text-align: center;\
+    padding: 4rem 0;\
+\}\
+\
+.cta h3 \{\
+    font-size: 2.5rem;\
+    margin: 0;\
+\}\
+\
+.cta p \{\
+    font-size: 1.2rem;\
+    margin: 1rem 0 2rem 0;\
+\}\
+\
+.cta form \{\
+    display: flex;\
+    justify-content: center;\
+    gap: 1rem;\
+\}\
+\
+.cta input[type="email"] \{\
+    padding: 1rem;\
+    width: 300px;\
+    border: none;\
+    border-radius: 5px;\
+    font-size: 1rem;\
+\}\
+\
+.cta button \{\
+    background: var(--primary-color);\
+    color: #fff;\
+    border: none;\
+    padding: 1rem 2rem;\
+    border-radius: 5px;\
+    font-size: 1rem;\
+    cursor: pointer;\
+    transition: background 0.3s ease;\
+\}\
+\
+.cta button:hover \{\
+    background: #e65a40;\
+\}\
+\
+footer \{\
+    background: var(--dark-color);\
+    color: #aaa;\
+    text-align: center;\
+    padding: 1.5rem 0;\
+\}\
+\
+@media (max-width: 768px) \{\
+    .features .container, .steps \{\
+        grid-template-columns: 1fr;\
+    \}\
+    \
+    .cta form \{\
+        flex-direction: column;\
+        align-items: center;\
+    \}\
+\
+    .cta input[type="email"] \{\
+        width: 100%;\
+        max-width: 300px;\
+    \}\
+\}}
