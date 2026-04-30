@@ -1,0 +1,16 @@
+# GitHub Pages Configuration for GeoFlagster
+title: GeoFlagster
+description: Master World Geography - A flag quiz game for iOS and Android
+url: "https://geoflagster.github.io"
+baseurl: ""
+
+# Theme
+theme: null
+plugins: []
+
+# Exclude files from Jekyll processing
+exclude:
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
